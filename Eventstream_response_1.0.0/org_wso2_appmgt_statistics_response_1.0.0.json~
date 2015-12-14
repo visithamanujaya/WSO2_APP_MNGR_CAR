@@ -1,5 +1,7 @@
 {
-    "name": "org_wso2_appmgt_statistics_response",
+	
+   "name": "org.wso2.appmgt.statistics.response:1.0.0",
+    "name": "org.wso2.appmgt.statistics.response",
     "version": "1.0.0",
     "nickName": "App Manager Reponse Data",
     "description": "Response Data",
@@ -9,6 +11,7 @@
             "type": "STRING"
         }
     ],
+ "correlationData": [],
     "payloadData": [
         {
             "name": "context",

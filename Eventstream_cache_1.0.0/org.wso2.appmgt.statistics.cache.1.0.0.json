@@ -1,16 +1,14 @@
 {
-  "streamId": "org.wso2.appmgt.statistics.fault:1.0.0",
-  "name": "org.wso2.appmgt.statistics.fault",
+  "name": "org.wso2.appmgt.statistics.cache",
   "version": "1.0.0",
-  "nickName": "WebApp Manager Fault Data",
-  "description": "Fault Data",
+  "nickName": "App Manager SAML Cache Data",
+  "description": "SAML Token Cache Hit and Miss Data",
   "metaData": [
     {
       "name": "clientType",
       "type": "STRING"
     }
   ],
-  "correlationData": [],
   "payloadData": [
     {
       "name": "context",
@@ -25,11 +23,7 @@
       "type": "STRING"
     },
     {
-      "name": "resource",
-      "type": "STRING"
-    },
-    {
-      "name": "method",
+      "name": "fullRequestPath",
       "type": "STRING"
     },
     {
@@ -37,16 +31,16 @@
       "type": "STRING"
     },
     {
-      "name": "errorCode",
-      "type": "STRING"
+      "name": "request",
+      "type": "INT"
     },
     {
-      "name": "errorMessage",
-      "type": "STRING"
+      "name": "cacheHit",
+      "type": "INT"
     },
     {
       "name": "requestTime",
-      "type": "STRING"
+      "type": "LONG"
     },
     {
       "name": "userId",

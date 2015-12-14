@@ -1,4 +1,5 @@
 {
+  "streamId": "org.wso2.appmgt.statistics.request:1.0.0",
   "name": "org.wso2.appmgt.statistics.request",
   "version": "1.0.0",
   "nickName": "WebApp Manager Request Data",
@@ -9,6 +10,7 @@
       "type": "STRING"
     }
   ],
+  "correlationData": [],
   "payloadData": [
     {
       "name": "context",
@@ -80,4 +82,3 @@
     }
   ]
 }
-					                                    		

@@ -1,5 +1,5 @@
 {
-    "name": "org_wso2_appmgt_statistics_fault",
+    "name": "org.wso2.appmgt.statistics.fault",
     "version": "1.0.0",
     "nickName": "App Manager Fault Data",
     "description": "Fault Data",

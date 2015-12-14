@@ -176,9 +176,9 @@ create temporary table  ApmAppHits using CarbonJDBC options (dataSource "WSO2AM_
 
 create temporary table APM_APP_HITS_TEMP USING CarbonAnalytics OPTIONS(tableName "ORG_WSO2_APPMGT_BAM_UIACTIVITYPUBLISH");                     
 
-INSERT OVERWRITE TABLE ApmAppHits select appId,userId,item,action,tenantId, appName, appVersion, context from APM_APP_HITS_TEMP;
-                         
-                                        
+INSERT OVERWRITE TABLE ApmAppHits select appId,userId,item,action,tenantId, appName, appVersion, context
+from APM_APP_HITS_TEMP;
+                                          
                                                       
 </Script>
     <CronExpression>0 0/5 * 1/1 * ? *</CronExpression>
